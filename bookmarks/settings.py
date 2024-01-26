@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'social_django',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
@@ -144,4 +145,6 @@ SOCIAL_AUTH_FACEBOOK_KEY = '' # Facebook App ID
 SOCIAL_AUTH_FACEBOOK_SECRET = '' # Facebook App Secret
 SOCIAL_AUTH_FACEBOOK_SCOPE = ['email']
 
+SOCIAL_AUTH_TWITTER_KEY = 'XXX' # Twitter API Key
+SOCIAL_AUTH_TWITTER_SECRET = 'XXX' # Twitter API Secret
 
